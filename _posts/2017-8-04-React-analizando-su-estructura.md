@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React, analizando el código y estructura.
-img: react.png
+img: /react.png
 ---
 
 [Aprende Javascript con MentoringJS - Step 10](http://mentoringjs.com/)  
