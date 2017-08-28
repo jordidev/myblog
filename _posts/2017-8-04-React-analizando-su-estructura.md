@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analizando mi recorrido por mentoringJS
+title: React, analizando el código y estructura.
 img: react.png
 ---
 

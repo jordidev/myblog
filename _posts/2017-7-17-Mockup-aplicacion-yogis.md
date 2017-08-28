@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mockup de mi nueva aplicación yogis.
-excerpt_separator: <!--more-->
+img: i_app
 ---
 
 [Aprende Javascript con MentoringJS - Step 9](http://mentoringjs.com/)
