@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contact
+title: Contacta
 permalink: /contact/
 ---
 <style>
@@ -48,7 +48,7 @@ ul.contact-ul {
 
 </style>
 
-Si tienes alguna duda o sugerencia, puedes ponerte en contacto conmigo.
+No dudes en enviarme cualquier sugerencia o duda!
 
 <form id="contact-form" class="form" action="https://formspree.io/{{site.email}}" method="POST" enctype="multipart/form-data">
         <ul class="contact-ul">
