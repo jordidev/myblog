@@ -1,12 +1,12 @@
 ---
 layout: post
-title: React, analizando el código y estructura.
-excerpt_separator: <!--more-->
+title: Analizando mi recorrido por mentoringJS
+img: react.png
 ---
 
 [Aprende Javascript con MentoringJS - Step 10](http://mentoringjs.com/)  
 
-Creando una pequeña aplicación desde cero, vamos a analizar los conceptos básicos de React utilizando los ejemplos que incluye la guía [oficial de React](http://www.react.express/). <!--more-->
+Creando una pequeña aplicación desde cero, vamos a analizar los conceptos básicos de React utilizando los ejemplos que incluye la guía [oficial de React](http://www.react.express/).
 
 ![Demostacion apli con React](../images/a_apli_react/aplicacion_react.gif)  
 
