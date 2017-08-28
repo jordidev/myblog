@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Mockup de mi nueva aplicación yogis.
-img: i_app.jpeg
+img: 
 ---
-
+i_app.jpeg
 [Aprende Javascript con MentoringJS - Step 9](http://mentoringjs.com/)
 
 Quiero presentar mi nuevo proyecto. Yogis va a ser una aplicación para móvil, donde una profesora de yoga puede promocionar un estilo de vida saludable. Es una aplicación tipo blog, donde subirá artículos, videos, fotos... pudiendo compartir las publicaciones con facebook y instragram<!--more-->  
