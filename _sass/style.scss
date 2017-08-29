@@ -276,7 +276,8 @@ pre {
     }
 }
 .border-2 {
-        margin-right: 2px;
+        border-right: 2px;
+        border-color: transparent;
         @include media-query($on-palm) {
         border-right: none;
     }
