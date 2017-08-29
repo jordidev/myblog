@@ -89,5 +89,5 @@ Puedes abrir una consola en la ficha fuentes si  presionas **ESC**. Esto puede s
   
 
 Hay aún más herramientas de depuración disponibles. Esas herramientas implican un poco mas de conocimiento, y las dejaremos para otra ocasión.  
-Espero que el articulo te haya servido de ayuda.
-Sin mas, me despido, hasta la próxima!!
+
+Espero que el articulo te haya servido de ayuda. Sin mas, me despido, hasta la próxima!!
