@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Guía como empezar con JavaScript.
-excerpt_separator: <!--more-->
 ---
 [Aprende Javascript con MentoringJS - Step 2](http://mentoringjs.com/)  
   
   
-JavaScript es un lenguaje de programación que permite a los desarrolladores crear acciones en sus páginas web. Fue inventado por Brendan Eich (co-fundador del proyecto mozilla).<!--more-->
+JavaScript es un lenguaje de programación que permite a los desarrolladores crear acciones en sus páginas web. Fue inventado por Brendan Eich (co-fundador del proyecto mozilla).
 
 El lenguaje JavaScript normalmente se ejecuta desde el cliente (Navigator JavaScript), aunque también existe JavaScript que se ejecuta desde servidor(LiveWire JavaScript). Este ultimo es más reciente.  
 

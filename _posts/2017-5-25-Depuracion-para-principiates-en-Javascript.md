@@ -25,15 +25,15 @@ Todos los navegadores tienen una. Personalmente la que mas me gusta es la de Goo
   
 **Desde el menú Chrome**  
 
-![menu chrome1](../images/art1-1.png)  
+![menu chrome1](../img/art1-1.png)  
   
 **O haciendo clic derecho en la pagina y seleccionando inspeccionar elemento**
   
-![menu chrome2](../images/art1-2.png)  
+![menu chrome2](../img/art1-2.png)  
   
 Te aparecerá en la parte inferior de nuestro navegador una ventana como esta:  
   
-![menu chrome3](../images/art1-3.PNG)  
+![menu chrome3](../img/art1-3.PNG)  
   
   
 ### Consola  
@@ -74,7 +74,7 @@ Puede iniciar el depurador en un punto específico en el código llamando debugg
   
 Con esto se nos abre una especie de menú.  En la parte derecha podemos ver las siguientes opciones:
 
-![menu debug](../images/art1-4.PNG)  
+![menu debug](../img/art1-4.PNG)  
   
 Si hace clic en el botón **“continuar”(1)**, continuará ejecutando el código hasta que choca con otro punto de interrupción. Una vez más, no parece ser mucho más sucede. Vamos a probar otra cosa.  
   

@@ -37,47 +37,47 @@ Ahora os presento la aplicación sección por sección.
 #### index.html:
 Contiene una presentación de la profesora, después el ultimo articulo, batido, figura y video. Desplazamiento en vertical.
 
-![Index yogis](../images/a_mockup_yogis/index.PNG "Aplicación yogis")
+![Index yogis](../img/a_mockup_yogis/index.PNG "Aplicación yogis")
 
 Menú desplegable al pulsar el botón, para las secciones de tipo artículos, batidos, videos... borrara el contenido y buscara solo lo seleccionado.
 
-![Menú yogis](../images/a_mockup_yogis/menu.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/menu.PNG "Aplicación yogis")
 
 #### articulos.html:
 Al seleccionar sobre un articulo, batido, video... la aplicación abre esta página con toda la información detallada. Deslizando la pantalla hacia los lados o pulsando las flechas laterales te desplazara por las diferentes publicaciones del tipo que hayas seleccionado.
 
-![Menú yogis](../images/a_mockup_yogis/articulos.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/articulos.PNG "Aplicación yogis")
 
-![Menú yogis](../images/a_mockup_yogis/articulos3.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/articulos3.PNG "Aplicación yogis")
 
 Deslizando la pantalla:
 
-![Menú yogis](../images/a_mockup_yogis/articulos2.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/articulos2.PNG "Aplicación yogis")
 
 #### retos.html:
 Incorpora un submenú para poder moverte por las 3 secciones:
 
-![Menú yogis](../images/a_mockup_yogis/retos-principal.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/retos-principal.PNG "Aplicación yogis")
 
 **Reto principal:**
 Contiene toda la información del reto (objetivo, cosas necesarias....). Si no estas inscrito solo puedes acceder a esta sección.  
 Primero podemos ver un botón unirse al reto. Después información del reto. En la parte inferior encontramos el muro de facebook donde la gente puede exponer sus dudas.
 
-![Menú yogis](../images/a_mockup_yogis/retos-principal2.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/retos-principal2.PNG "Aplicación yogis")
 
-![Menú yogis](../images/a_mockup_yogis/retos-principal3.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/retos-principal3.PNG "Aplicación yogis")
 
 **Reto del DIA:**
 Muestra información del reto del DIA. Después un botón "Conseguido!", al pulsar abre la cámara, haces una foto y se sube a la página principal de la profesora con unos hastah prefijados. En el muro de más abajo se mostrarán todas las personas que han subido la foto. En este muro no se puede escribir, solo es para incentivar a que la gente participe, para cualquier duda tienen que ir a la página principal del reto.
 
-![Menú yogis](../images/a_mockup_yogis/retos-dia.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/retos-dia.PNG "Aplicación yogis")
 
-![Menú yogis](../images/a_mockup_yogis/retos-dia2.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/retos-dia2.PNG "Aplicación yogis")
 
 **Reto calendario:**
 Muestra un calendario con la información diaria del reto. 
 
-![Menú yogis](../images/a_mockup_yogis/retos-calendario.PNG "Aplicación yogis")
+![Menú yogis](../img/a_mockup_yogis/retos-calendario.PNG "Aplicación yogis")
 
 ### Proceso de construcción con [mentoringJS](http://mentoringjs.com/)
 La formación de mentoringJS incluye un proyecto personal. Cada vez me encuentro más capacitado para hacer frente a la construcción de mi proyecto gracias a este curso, que te da la capacidad de utilizar todas las tecnologías actuales en el mundo del desarrollo. Por ejemplo, podéis visitar[ mi ultimo proyecto](https://jordigomper.github.io/myblog/Proyecto-TwitchTV-con-VainillaJS/) construido solo con JavaScript nativo.  

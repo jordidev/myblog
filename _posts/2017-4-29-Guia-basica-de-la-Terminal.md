@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Aprende a utilizar la terminal.
-img: 
 ---
 [Aprende Javascript con MentoringJS - Step 4](http://mentoringjs.com/)  
   
   
 En este curso vamos a navegar por nuestra Shell. Quizás te preguntes por que utilizar nuestra primitiva terminal si tenemos una GUI maravillosa, pues porque para algunas tareas no es útil. Vamos a adquirir los conocimientos básicos para poder navegar, crear, modificar... vamos a empezar, BANZAI!!!
-<!--more-->
 
 > ¿Qué es La Shell?  
 Es un programa que envía los comandos que has introducido por teclado al sistema. Durante muchos años era la única interfaz de usuario.  

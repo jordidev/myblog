@@ -5,7 +5,7 @@ img: blog/i_dom.jpg
 ---
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)
 
-Hola chicos! En este articulo os voy a enseñar a modificar el DOM sin la necesidad de tener que utilizar jQuery.<!--more-->
+Hola chicos! En este articulo os voy a enseñar a modificar el DOM sin la necesidad de tener que utilizar jQuery.
 
 
 

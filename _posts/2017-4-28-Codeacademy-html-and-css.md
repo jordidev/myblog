@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Curso Codeacademy HTML y CSS
-excerpt_separator: <!--more-->
 ---
 [Aprende Javascript con MentoringJS - Step 3](http://mentoringjs.com/)  
   
@@ -12,7 +11,6 @@ estando bien anidadas, dan una estructura a la pagina y definen el contenido.
 
 **CSS (CascadingStyle Sheets)** es el lenguaje de estilo que define la presentación de los documentos HTML, es decir,
 lo utilizaremos para definir las fuentes, colores, margenes, tamaño etc etc... de nuestro sitio web.
-<!--more-->
 
 ## **Antes de empezar...**
 

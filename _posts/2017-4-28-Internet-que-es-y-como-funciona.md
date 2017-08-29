@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Internet ¿Que es y como funciona?
-excerpt_separator: <!--more-->
 ---
 [Aprende Javascript con MentoringJS - Step 3](http://mentoringjs.com/)  
   
     
 Los cimientos de internet tal y como lo conocemos hoy en día, empezaron durante la guerra fría.
 EE.UU creo ARPANET, un sistema de ordenadores conectados a gran escala. Esto les permitía transmitir sus conocimientos y evitar duplicaciones en sus investigaciones.  
-<!--more-->
 
 ##  En que consistía
 En sus principios se utilizaba un ordenador que se encargaba de hacer de enlace entre la red y los servidores. Este ordenador tomaba el control de la red.

@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Controlador de versiones Git.
-excerpt_separator: <!--more-->
 ---
 [Aprende Javascript con MentoringJS - Step 2](http://mentoringjs.com/)  
   
   
-Git es un controlador de versiones. Fue diseñado por Linus Torvalds. Ofrece eficiencia y confiabilidad del mantenimiento de versiones a proyectos con un gran número de aplicaciones <!--more--> 
+Git es un controlador de versiones. Fue diseñado por Linus Torvalds. Ofrece eficiencia y confiabilidad del mantenimiento de versiones a proyectos con un gran número de aplicaciones
   
 Os enseñare como empezar a desarrollar vuestros proyectos desde servidores remotos. En este caso quiero compartir mi proyecto en una comunidad developer de forma pública, como es GitHub.  
 

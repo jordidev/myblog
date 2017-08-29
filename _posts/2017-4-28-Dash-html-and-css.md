@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Curso Dash HTML y CSS 
-excerpt_separator: <!--more-->
 ---
 [Aprende Javascript con MentoringJS - Step 3](http://mentoringjs.com/)  
   
   
 Dash es un programa interactivo para aprender HTML, CSS i JavaScript. Es muy útil para empezar en el mundo de la codificación web.
-<!--more-->
+  
 Con la base del curso de Codeacademy solamente hemos de preocuparnos de escribir los que nos indican, la dificultad es baja.  
 Aquí vamos a ver las posibilidades que, con nuestra simple base de html y css, tenemos diferentes posibilidades de crear una pagina web.  
 La única diferencia que apreciamos con Codeacademy es que en este curso no disponemos de una hoja de estilo separada de nuestra hoja de HTML, deberemos de introducir nuestro código CSS dentro de la misma hoja de HTML, no os preocupéis básicamente es lo mismo. Durante el curso se nos pondrán varios checkpoints donde tendremos que hacer lo que nos indican, estos tienen el fondo de color amarillo y nos indicaran con un visto verde cuando este todo bien y nos deje pasar al siguiente punto. Si en algún momento te sientes atascado o no recuerdas que sintaxis tenia algún elemento, puedes ir dentro de la división de pantalla de la esquina izquierda superior y presionar sobre Skills, estas skills son etiquetas que pasando el cursos por encima nos indicaran la sintaxis. Las Skills de color rojo son HTML, las amarillas CSS y las azules Javascript. Durante el curso iremos desbloqueando las a medida que avanzamos.  
