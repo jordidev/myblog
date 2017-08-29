@@ -1,13 +1,174 @@
 ---
 layout: post
 title: TwitchTV con VainillaJS.
-img: blog/i_app.jpg
+img: blog/i_twitch.jpg
 ---
 
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)
 
 En este articulo vamos a pasar un antiguo proyecto que utiliza jQuery a VainillaJS. Vamos a utilizar la API de [Twitch Developers](https://dev.twitch.tv/) para hacer una página que nos da información de varios canales.
-<!--more-->
+  
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Twitch tv</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- font-awesome CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!--Google font-->
+  <link href="https://fonts.googleapis.com/css?family=Ruda" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container">
+    <!--T´tulos-->
+    <div id="contenido">
+      <div id="header">
+        <div class="row text-center">
+          <h1 id="title">TWITCH STREAMERS</h1>
+          <div class="menu">
+            <ul>
+              <li><a class="selector" id="all" href="#">ALL</a></li>
+              <li><a class="selector" id="online" href="#">ONLINE</a></li>
+              <li><a class="selector" id="offline" href="#">OFFLINE</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--Aquí se visualizan los canales-->
+      <div id="display">
+      </div>
+
+      <!--Pie de página-->
+      <div class="row" id="footer">
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--JavaScript-->
+  <script>
+    var channels = ["freecodecamp", "ESL_SC2", "OgamingSC2", "cretetion", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "brunofin", "comster404"];
+
+function getChannelInfo() {
+    //Las urls
+    channels.forEach(function(channel) {
+        function makeURL(type, name) {
+            return 'https://api.twitch.tv/kraken/' + type + '/' + name + '?client_id=c8a3wkkb56yqjhlcui7tcfyjvs65dy6';
+        };
+
+        const req = new XMLHttpRequest();
+        req.open('GET', makeURL("streams", channel));
+        req.onreadystatechange = function() {
+            if (req.readyState === 4) {
+                if (req.status === 200) {
+                    var data = JSON.parse(this.response),
+                        game,
+                        status;
+
+                    if (data.stream === null) {
+                        game = "Offline";
+                        status = "offline";
+                    } else if (data.stream === undefined) {
+                        game = "Not found";
+                        status = "offline";
+                    } else {
+                        game = data.stream.game;
+                        status = "online";
+                    };
+
+                    const req = new XMLHttpRequest();
+                    req.open('GET', makeURL("channels", channel));
+                    req.onreadystatechange = function() {
+                        if (req.readyState === 4) {
+                            if (req.status === 200) {
+                                var data = JSON.parse(this.response);
+                                var logo = data.logo != null ? data.logo : "https://dummyimage.com/50x50/ecf0e7/5c5457.jpg&text=0x3F",
+                                    name = data.display_name != null ? data.display_name : channel,
+                                    description = status === "online" ? ': ' + data.status : "";
+
+                                var html = document.createElement("div");
+                                html.innerHTML = '<div class="row ' + status + '" id="canal"><div class="col-xs-2 col-md-2" id="icon"><img src="' +
+                                    logo + '" class="logo"></div><div class="col-xs-5 col-md-3" id="name"><a href="' +
+                                    data.url + '" target="_blank">' + name + '</a></div><div class="col-xs-5 col-md-7" id="streaming">' +
+                                    game + '<span class="hidden-xs">' + description + '</span></div></div>';
+
+                                //Pongo a los que están online los primeros de la lista y a los offline los últimosç
+                                var qdisplay = document.getElementById("display")
+                                status === "online" ? qdisplay.prepend(html) : qdisplay.appendChild(html);
+                            } else {
+                                console.log("Error, " + req.StatusText);
+                            }
+                        }
+                    };
+                    req.send();
+
+                } else {
+                    console.log("Error, " + req.StatusText);
+                }
+            }
+        };
+        req.send();
+
+    });
+};
+
+window.addEventListener("load", function() {
+    getChannelInfo();
+
+    var selector = document.querySelectorAll('.selector');
+    selector.forEach((e) => {
+        e.addEventListener('click', function() {
+
+            selector.forEach((e) => {
+                e.classList.remove('active');
+            });
+            this.classList.add('active');
+
+            var status = this.id;
+            var selectorAll = document.querySelectorAll('#canal');
+            var selectorOnline = document.querySelectorAll('.online');
+            var selectorOffline = document.querySelectorAll('.offline');
+
+            if (status === "all") {
+                selectorAll.forEach((e) => {
+                    e.classList.remove("hidden");
+                })
+            } else if (status === "online") {
+                selectorOnline.forEach((e) => {
+                    e.classList.remove("hidden");
+                })
+                selectorOffline.forEach((e) => {
+                    e.classList.add("hidden");
+                })
+            } else {
+                selectorOffline.forEach((e) => {
+                    e.classList.remove("hidden");
+                })
+                selectorOnline.forEach((e) => {
+                    e.classList.add("hidden");
+                })
+            };
+        });
+    });
+});
+
+  </script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+</body>
+</html>
 
 ## Introducción
 1. Hacer fork de la repro en GitHub.
