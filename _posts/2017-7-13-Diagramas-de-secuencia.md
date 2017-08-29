@@ -2,7 +2,7 @@
 layout: post
 title: Diagramas de secuencia.
 categories: herramientras
-img: /blog/i_diagrama.jpg
+img: /blog/i_diagrama.png
 ---
 
 [Aprende Javascript con MentoringJS - Step 8](http://mentoringjs.com/)  
