@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Crea tu blog con Jekyll en GitHub en solo unos minutos
-excerpt_separator: <!--more-->
+img: blog/jekyll-logo.png
 ---  
 [Aprende Javascript con MentoringJS - Step 4](http://mentoringjs.com/)  
   
