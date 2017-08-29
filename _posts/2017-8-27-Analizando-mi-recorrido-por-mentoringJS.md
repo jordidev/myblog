@@ -10,6 +10,8 @@ categories: articulo
 
 Hola chicos! Hoy os voy a hablar del programa que estoy siguiendo  **mentoringJS**. 
 
+![web mentoringjs](https://jordidev.github.io/myblog/img/a_mentoringjs/img_web.PNG)
+
 Hace unos meses decidí incorporarme al programa de **mentoringJS**. Antes de tomar esa decisión, no sabia si el nivel inicial iba a ser muy superior al que yo tenía, también pensaba que al tener ser online el aprendizaje iba a ser difícil.  
 Ahora, con unos cuantos meses y mucho trabajo realizado junto con **mentoringJS**, puedo decirte que me parece un excelente programa y voy a explicarte mi experiencia.  
 
