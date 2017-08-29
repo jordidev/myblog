@@ -270,13 +270,13 @@ pre {
     }
 }
 .four.border {
-    border-right: 2px solid #ffffff;;
+    border-right: 2px solid #ffffff;
         @include media-query($on-palm) {
         border-right: none;
     }
 }
 .border-2 {
-        border-right: 2px solid #ffffff;;
+        border-right: 2px solid #ffffff;
         @include media-query($on-palm) {
         border-right: none;
     }
