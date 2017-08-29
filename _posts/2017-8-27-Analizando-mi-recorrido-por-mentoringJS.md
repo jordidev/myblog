@@ -2,7 +2,7 @@
 layout: post
 title: Analizando mi recorrido por mentoringJS
 categories: personal
-img: 
+img: img_web.PNG
 ---
 
 [Aprende Javascript con MentoringJS](http://mentoringjs.com/)  
