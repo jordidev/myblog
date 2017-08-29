@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TwitchTV con VainillaJS.
-img: blog/i_js.PNG
+img: blog/i_app.PNG
 ---
 
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)

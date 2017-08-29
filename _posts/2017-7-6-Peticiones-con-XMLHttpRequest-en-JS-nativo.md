@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Peticiones con XMLHttpRequest en JS nativo.
-excerpt_separator: <!--more-->
+img: blog/i_js.PNG
 ---
 
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)
