@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Diagramas de secuencia.
-categories: herramientras
 img: /blog/i_diagrama.png
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: React, analizando el código y estructura.
-categories: react
 img: react.jpeg
 ---
 

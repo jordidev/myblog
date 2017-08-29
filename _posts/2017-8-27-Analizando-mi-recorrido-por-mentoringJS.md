@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Analizando mi recorrido por mentoringJS
-categories: personal
 img: img_web.PNG
 ---
 
