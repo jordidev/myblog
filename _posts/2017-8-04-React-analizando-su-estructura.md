@@ -1,8 +1,8 @@
 ---
 layout: post
-title: React, analizando el código y estructura.
+title: React analizando el código y estructura.
 categories: react
-img: lost-1.jpg
+img: react.PNG
 categories: one
 ---
 
@@ -10,7 +10,7 @@ categories: one
 
 Creando una pequeña aplicación desde cero, vamos a analizar los conceptos básicos de React utilizando los ejemplos que incluye la guía [oficial de React](http://www.react.express/).
 
-![Demostacion apli con React.](/a_apli_react/aplicacion_react.gi)  
+![Demostacion apli con React.](/a_apli_react/aplicacion_react.gif)  
 
 Tienes todos los ejemplos de la guía en [mi repositorio personal de GitHUb](https://github.com/jordigomper/react-express)
 

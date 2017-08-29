@@ -2,7 +2,7 @@
 layout: post
 title: Analizando mi recorrido por mentoringJS
 categories: personal
-img: lost-1.jpg
+img: img_web.PNG
 categories: one
 ---
 
