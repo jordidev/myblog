@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Aprende a utilizar la terminal.
-excerpt_separator: <!--more-->
+img: 
 ---
 [Aprende Javascript con MentoringJS - Step 4](http://mentoringjs.com/)  
   

@@ -5,15 +5,13 @@ img: blog/jekyll-logo.png
 ---  
 [Aprende Javascript con MentoringJS - Step 4](http://mentoringjs.com/)  
   
+<!--![LogoJekyll](http://3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/images/jekyll-logo.png)-->
   
-![LogoJekyll](http://3cca053a28a5db4d7e2d-9c64834929b7793a1eba90da107ff905.r73.cf1.rackcdn.com/images/jekyll-logo.png)  
   
 Este articulo esta escrito sobre mi experiencia a la hora de montar un blog en GitHub con Jekyll. Tengo muy poca experiencia con este editor, así que te hablare de todas las dudas y respuestas que obtuve en el proceso.  
-<!--more-->  
   
 ## Que es Jekyll?  
 Jekyll es una herramienta para la creación de blogs estáticos escrito por Tom Preston-werner, uno de los creadores de Github. Esta programado en Ruby, es de código abierto y totalmente gratuito. Su principal ventaja es que traduce todos nuestros contenidos escritos en Markdown a HTML, así simplemente nos preocuparemos de escribir y nada más. No necesita de código que se ejecute en el servidor y no utiliza PHP o MySQL, esto proporciona mayor seguridad en explotación de vulnerabilidades en estas tecnologías. Es la ***opción perfecta para integrar en nuestro Github un blog*** y como ultimo dato hay que decir que su [pagina web](https://jekyllrb.com/docs/quickstart/) esta alojada en los servidores de Github.  
-
   
 ## Instalar Jekyll en tan solo unos minutos  
 
