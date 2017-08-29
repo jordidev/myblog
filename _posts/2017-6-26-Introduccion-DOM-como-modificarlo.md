@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como modificar el DOM sin necesidad de jQuery.
-excerpt_separator: <!--more-->
+img: blog/i_dom.jpg
 ---
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)
 
