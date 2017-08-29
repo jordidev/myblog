@@ -7,7 +7,6 @@ categories: javascript
   
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)  
   
-  
 Liberate de las cadenas de jQuery comprendiendo la moderna API Web y descubriendo varias bibliotecas dirigidas para ayudarte a llenar los vacíos.
   
   
