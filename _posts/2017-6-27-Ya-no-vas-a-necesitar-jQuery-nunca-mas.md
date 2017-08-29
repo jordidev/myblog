@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ya no vas a necesitar jQuery nunca más!
-excerpt_separator: <!--more-->
+img: i_nojquery.PNG
 ---
   
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)  
