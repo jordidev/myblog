@@ -1,7 +1,8 @@
 ---
 layout: post
 title: React, analizando el código y estructura.
-img: react.jpe
+categories: react
+img: react.jpeg
 ---
 
 [Aprende Javascript con MentoringJS - Step 10](http://mentoringjs.com/)  
