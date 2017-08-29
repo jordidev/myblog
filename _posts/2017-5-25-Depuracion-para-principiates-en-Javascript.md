@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Depuración para principiantes en Javascript.
-excerpt_separator: <!--more-->
+img: blog/i_debuggin.png
 ---
 [Aprende Javascript con MentoringJS - Step 5](http://mentoringjs.com/)  
   
