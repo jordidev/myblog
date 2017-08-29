@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Aprende a utilizar la terminal.
+img: blog/i_terminal.jpg
 categories: articulo
 ---
 [Aprende Javascript con MentoringJS - Step 4](http://mentoringjs.com/)  

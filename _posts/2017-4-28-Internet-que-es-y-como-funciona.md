@@ -2,6 +2,7 @@
 layout: post
 title: Internet ¿Que es y como funciona?
 categories: articulo
+img: i_internet.jpg
 ---
 [Aprende Javascript con MentoringJS - Step 3](http://mentoringjs.com/)  
   
