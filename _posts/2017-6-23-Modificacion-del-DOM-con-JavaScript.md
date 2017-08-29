@@ -2,6 +2,7 @@
 layout: post
 title: Modificación del DOM con JavaScript.
 img: blog/i_jsnative.png
+categories: javascript
 ---
   
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)

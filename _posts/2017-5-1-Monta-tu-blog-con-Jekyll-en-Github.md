@@ -2,6 +2,7 @@
 layout: post
 title: Crea tu blog con Jekyll en GitHub en solo unos minutos
 img: blog/jekyll-logo.png
+categories: articulo
 ---  
 [Aprende Javascript con MentoringJS - Step 4](http://mentoringjs.com/)  
   
@@ -19,13 +20,13 @@ Llegar a controlar Jekyll puede ser muy complicado, así que ahora que ya tenemo
 
 1.  Crea una cuenta en [Github](https://github.com/).  
 2. Entra en el repositorio [jekyll-now](https://github.com/barryclark/jekyll-now) y copia el repositorio a tu propio Github haciendo click en fork.  
-![paso 1](../img/jekyll-step1.PNG)  
+![paso 1](https://jordidev.github.io/myblog/img/jekyll-step1.PNG)  
   
 3. Ves a tu nuevo repositorio, y cambia el nombre haciendo click en settings. Yo te recomiendo poner algo como mi-blog.  
-![paso 2](../img/jekyll-step2.PNG)  
+![paso 2](https://jordidev.github.io/myblog/img/jekyll-step2.PNG)  
   
 4. Vamos a crear un Branch llamado gh-pages. A partir de ahora todas  las ***modificaciones las haremos desde ese branch***. En unos minutos nuestro blog se visualizara en https://nombre-de-tu-cuenta.github.io/nombre-de-tu-repositorio/.  
-![paso 3](../img/jekyll-step3.PNG)  
+![paso 3](https://jordidev.github.io/myblog/img/jekyll-step3.PNG)  
   
 5. Desde el directorio principal de nuestro repositorio, editamos el archivo _config.yml:  
 * Nombre del blog (name): Escribe aquí el nombre del sitio, o simplemente tu nombre.  
@@ -33,9 +34,9 @@ Llegar a controlar Jekyll puede ser muy complicado, así que ahora que ya tenemo
 * Avatar (avatar): la url de tu avatar. Puedes simplemente copiar la url del avatar de github, de algún otro sitio donde lo tengas alojado, o alojarlo en este mismo repositorio.  
 * Enlaces a tus redes (footer-links): aquí puedes configurar los iconos que aparecerán en la parte inferior de tu blog, y que enlazarán con información extra, como tu email, facebook, tu github, twitter, Google+ y un largo etcétera.  
   
-![paso 4](../img/jekyll-step4.PNG)  
+![paso 4](https://jordidev.github.io/myblog/img/jekyll-step4.PNG)  
   
-![paso 5](../img/jekyll-step5.PNG)  
+![paso 5](https://jordidev.github.io/myblog/img/jekyll-step5.PNG)  
 
 Ya puedes comprobar nuevamente que tu blog funciona y que los cambios se ven reflejados.  
 Con esto ya hemos instalado nuestro blog en Github listo para añadir contenido.    
@@ -52,7 +53,7 @@ La portada del blog se actualizara y en el index pondrá una pequeña sección d
 Para crear nuevos artículos vamos a crear nuevos archivos en la carpeta _posts, acuérdate de que en el nombre siempre has de poner la fecha y a continuación el nombre del articulo.  
 En la cabecera siempre hemos de incluir esta información:  
 
-![paso 6](../img/jekyll-step6.PNG)  
+![paso 6](https://jordidev.github.io/myblog/img/jekyll-step6.PNG)  
 ***layout*** : Indica el tipo de publicación. Podría cambiarlo por manual, articulo...  
 ***title:*** : Aqui va el titulo de nuestro articulo  
 ***excerpt_separator*** : Aquí vamos a indicar hasta donde muestra de este articulo la pagina principal. Pondremos &lt;!--more--&gt; hasta donde nos interese.  

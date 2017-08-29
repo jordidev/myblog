@@ -3,13 +3,14 @@ layout: post
 title: React analizando el código y estructura.
 categories: react
 img: blog/i_react.jpeg
+categories: react.js
 ---
 
 [Aprende Javascript con MentoringJS - Step 10](http://mentoringjs.com/)  
 
 Creando una pequeña aplicación desde cero, vamos a analizar los conceptos básicos de React utilizando los ejemplos que incluye la guía [oficial de React](http://www.react.express/).
 
-![Demostacion apli con React](../img/a_apli_react/aplicacion_react.gif)  
+![Demostacion apli con React](https://jordidev.github.io/myblog/img/a_apli_react/aplicacion_react.gif)  
 
 Tienes todos los ejemplos de la guía en [mi repositorio personal de GitHUb](https://github.com/jordigomper/react-express)
 

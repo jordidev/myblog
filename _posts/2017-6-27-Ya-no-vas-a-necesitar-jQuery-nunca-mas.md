@@ -2,6 +2,7 @@
 layout: post
 title: Ya no vas a necesitar jQuery nunca más!
 img: blog/i_nojquery.png
+categories: javascript
 ---
   
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)  
