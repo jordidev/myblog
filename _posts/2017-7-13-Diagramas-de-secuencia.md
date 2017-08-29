@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Diagramas de secuencia.
-excerpt_separator: <!--more-->
+categories: herramientras
+img: /blog/i_diagrama.jpeg
 ---
 
 [Aprende Javascript con MentoringJS - Step 8](http://mentoringjs.com/)  
