@@ -260,7 +260,7 @@ pre {
 
 .bg {
     box-shadow: 0 0 4px #ddd;
-     background: #fbff0b; /* fallback for old browsers */
+     background: #ffffff; /* fallback for old browsers */
 }
 
 .border {
@@ -270,13 +270,13 @@ pre {
     }
 }
 .four.border {
-    border-right: 2px solid #fbff0b;
+    border-right: 2px solid #ffffff;;
         @include media-query($on-palm) {
         border-right: none;
     }
 }
 .border-2 {
-        border-right: 2px solid #fbff0b;
+        border-right: 2px solid #ffffff;;
         @include media-query($on-palm) {
         border-right: none;
     }
