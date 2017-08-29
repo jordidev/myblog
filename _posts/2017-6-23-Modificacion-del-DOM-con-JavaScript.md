@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Modificación del DOM con JavaScript.
-excerpt_separator: <!--more-->
+img: blog/i_jsnative.png
 ---
   
 [Aprende Javascript con MentoringJS - Step 7](http://mentoringjs.com/)
   
-Si estas aprendiendo JavaScript, lo primero que debes aprender (después de entender los conceptos básicos como variables, funciones, etc.) es como alterar el DOM. Esto es una de las cosas que haces diariamente como desarrollador frontend.<!--more-->
+Si estas aprendiendo JavaScript, lo primero que debes aprender (después de entender los conceptos básicos como variables, funciones, etc.) es como alterar el DOM. Esto es una de las cosas que haces diariamente como desarrollador frontend.
 
 Cambiar el **DOM** era difícil. Necesitamos jQuery para hacerlo mas fácil. Por suerte, ya no hay necesidad de jQuery.
 
