@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diagramas de secuencia.
-img: /blog/i_diagrama.png
+img: 
 ---
 
 [Aprende Javascript con MentoringJS - Step 8](http://mentoringjs.com/)  
